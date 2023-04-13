@@ -1,6 +1,8 @@
 package GettingStartedwithjava;
 
 
+// Prime number between a range that is low or high with optimziation
+
 import java.util.*;
 public class printprimebtwrange {
     public static void main(String[] args) {
