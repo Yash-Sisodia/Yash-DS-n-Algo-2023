@@ -10,7 +10,7 @@ public class printprimebtwrange {
 
         for(int i = low ; i<high ; i++) {
             int counter = 0;
-            for(int j = 2 ; j<low; j++) {
+            for(int j = 2 ; j*j<=i; j++) {
                 if(i%j==0) {
                     counter++;
                 }
