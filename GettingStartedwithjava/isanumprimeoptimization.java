@@ -41,6 +41,7 @@ public class isanumprimeoptimization {
 
             for(int j = 2 ; j*j<=n ; j++) {
                 if(n%j==0) {
+                    System.out.println(j);
                     counter++;
                     break;
                 }
