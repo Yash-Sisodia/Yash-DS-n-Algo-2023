@@ -13,5 +13,8 @@ public class functionsinjava {
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
         printMyName(name); // Call krna function ko ....
+        printMyName(name); 
+        printMyName(name); 
+        
     }
 }
