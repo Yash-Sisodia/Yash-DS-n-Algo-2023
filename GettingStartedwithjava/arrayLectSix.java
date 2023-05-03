@@ -8,7 +8,6 @@ public class arrayLectSix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-
         int [] arr = new int[n];
         // Input Array 
         for(int i = 0 ; i < arr.length ; i++) {
@@ -22,7 +21,5 @@ public class arrayLectSix {
                 System.out.println(i);
             }
         }
-
-
     }
 }
